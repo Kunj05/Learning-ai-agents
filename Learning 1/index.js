@@ -102,8 +102,8 @@ const messages = [
   },
 ];
 
-const token = "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";
-const endpoint = "https://models.inference.ai.azure.com";
+const token = "";
+const endpoint = "";
 const modelName = "gpt-4o-mini";
 
 const client = new OpenAI({ baseURL: endpoint, apiKey: token });
